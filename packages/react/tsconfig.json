@@ -1,0 +1,6 @@
+{
+    "extends": "@mk-ui/ts-config/react.json",
+    "include": [
+        "src"
+    ]
+}
