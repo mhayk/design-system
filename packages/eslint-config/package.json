@@ -2,7 +2,7 @@
   "name": "@mk-ui/eslint-config",
   "author": "Mhayk Whandson",
   "license": "MIT",
-  "private": "true",
+  "private": true,
   "main": "index.js",
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.1.3",
