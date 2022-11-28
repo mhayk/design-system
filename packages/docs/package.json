@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "start-storybook -p 6006",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
     "build": "NODE_OPTIONS=--openssl-legacy-provider build-storybook"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.2",
+    "@storybook/addon-a11y": "^6.5.13",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-interactions": "^6.5.13",
@@ -22,6 +23,8 @@
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^2.2.0",
     "babel-loader": "^8.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "vite": "^3.2.4"
   },
   "dependencies": {
@@ -30,8 +33,6 @@
     "@mk-ui/tokens": "*",
     "@mk-ui/ts-config": "*",
     "phosphor-react": "^1.4.1",
-    "polished": "^4.2.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "polished": "^4.2.2"
   }
 }
