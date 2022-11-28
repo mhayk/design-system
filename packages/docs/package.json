@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider build-storybook"
+    "build": "NODE_OPTIONS=--openssl-legacy-provider build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "Mhayk Whandson <hi@mhayk.com>",
@@ -32,6 +33,7 @@
     "@mk-ui/react": "*",
     "@mk-ui/tokens": "*",
     "@mk-ui/ts-config": "*",
+    "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2"
   }
