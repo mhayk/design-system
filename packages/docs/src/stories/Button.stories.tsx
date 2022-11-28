@@ -3,7 +3,7 @@ import { Button, ButtonProps } from '@mk-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
 export default {
-  title: 'Data display/Button',
+  title: 'Form/Button',
   component: Button,
 
   args: {
