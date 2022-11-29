@@ -1,0 +1,2 @@
+import{A as t}from"./index.aa90d8ed.js";import"./index.900ee931.js";import"./iframe.178cc700.js";import"./index.594ff7a5.js";import"./jsx-runtime.6c939afb.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/mhayk.png",alt:"Mhayk Whandson"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},n=["Primary","withFallback"];export{c as Primary,n as __namedExportsOrder,p as default,m as withFallback};
+//# sourceMappingURL=Avatar.stories.30c1d8fc.js.map
