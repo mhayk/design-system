@@ -1,5 +1,5 @@
 {
-    "extends": "@mk-ui/ts-config/react.json",
+    "extends": "@mk-design-system/ts-config/react.json",
     "include": [
         "src"
     ]

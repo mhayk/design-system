@@ -1,5 +1,5 @@
 {
-  "name": "@mk-ui/react",
+  "name": "@mk-design-system/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@mk-ui/eslint-config": "*",
-    "@mk-ui/tokens": "*",
-    "@mk-ui/ts-config": "*",
+    "@mk-design-system/eslint-config": "*",
+    "@mk-design-system/tokens": "*",
+    "@mk-design-system/ts-config": "*",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "react": "^18.2.0",

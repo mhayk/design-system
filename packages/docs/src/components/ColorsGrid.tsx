@@ -1,4 +1,4 @@
-import { colors } from '@mk-ui/tokens'
+import { colors } from '@mk-design-system/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

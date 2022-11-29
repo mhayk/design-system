@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@mk-ui/react'
+import { Text, TextProps } from '@mk-design-system/react'
 
 export default {
   title: 'Typography/Text',

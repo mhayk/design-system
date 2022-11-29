@@ -1,5 +1,5 @@
 {
-  "extends": "@mk-ui/ts-config/base.json",
+  "extends": "@mk-design-system/ts-config/base.json",
   "include": [
     "src"
   ]
